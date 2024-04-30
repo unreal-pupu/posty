@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+li a:hover{
+    color: cadetblue;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+
+.content{
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-left: 20px;
+    margin: 100px auto;
+    width: 80%;
+}
+
+
+.img{
+    width: 500px;
+    float: right;
+}
+
+.statement{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+p{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 25px;
+}
+
+.social{
+    background: ghostwhite;
+}
+
+.card i{
+    margin: 15px 40px;
+    justify-content: center;
+    display: inline-block;
+    /* justify-content: space-between; */
+    font-size: 90px;
+}
+
+.image{
+    width: 500px;
+    float: right;
+}
+
+.main{
+    padding-left: 20px;
+}
+
+h2{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.button{
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 25px;
+}
+
+.post{
+    width: 600px;
+    padding-top: 200px;
+    float: left;
+}
+
+.case{
+    padding-top: 230px;
+    padding-right: 50px;
+}
+
+.btn-primary{
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 25px;
+    padding-left: 30px; 
+}
+
